@@ -6,7 +6,7 @@ int main() {
    cin >> n;
    int a = 1;
    int b = 1;
-   while (a < n) {
+   while (a <= n) {
       cout << a << endl;
       int s = a + b;
       a = b;
